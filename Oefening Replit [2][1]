@@ -39,7 +39,7 @@ int main( void )
 	printf( "Geef 1 geheel getal in: " );
 	result = scanf( "%d", &getal );
 
-	result = getal / 2;
+	result = getal % 2;
 
 	if( result == 0 ) // test of het resultaat 0 is
 	{
@@ -52,3 +52,4 @@ int main( void )
 
 	return 0;
 }
+
